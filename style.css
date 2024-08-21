@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TT Hoves';
+}
+
+section {
+    padding: 0 120px;
+    margin-bottom: 160px;
+
+}
+.courseInfoContainer{
+    background-image: url(../img/html_css_js\ 1.png) ;
+    background-repeat: no-repeat;
+    background-position: top calc(4.9vw + 58.7px) right calc(6.1vw - 19.7px);
+    background-size: 30vw;
+}
+h1 {
+    font-family: 'Chava';
+    width: 778px;
+    height: 88px;
+    top: 302px;
+    left: 112px;
+}
+.logo{
+    width: 295px;
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+.courseInfo{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+.courseInfo div{
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 21px;
+    line-height: 140%;    
+}
+.subtitle{
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 700;
+
+}
+.jobInfo{
+    font-size: calc(1vw + 14.3px);
+    font-weight: 300;
+    line-height: 37.8px;
+    width: 750px;
+    margin-top: calc(2.2vw + 11.7px);
+    margin-bottom: 20px;
+}
+.primari{
+    width: 328px;
+    background-color: #6E3ABA;
+    color: white;
+    font-weight: 500;
+    padding: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+    font-size: 18px;
+}
+.secondary{
+    width: 328px;
+    height: 61px;
+    top: 640px;
+    left: 479px;
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+    background-color: white;
+    
+}
+/* timer start*/
+.timerCours{
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px ;
+    padding: 84px 0;
+}
+.timerCourse h2{
+    font-size: calc(2vw + 26.5px);
+    font-weight: 700;
+    line-height: 117%;
+    color: white;
+}
+.timers{
+    display: flex;
+    gap: calc(1vw + 76.2px) 30px;
+}
+.timer .timertitle{
+    font-family: "Chava";
+    font-size: calc(12.6vw + 12.7px);
+    line-height: 187.05px;
+    text-align: left;
+    color: black;
+}
+.timer .timersubtitle{
+    text-align: center;
+    font-size: calc(1.9vw + 3px);
+    font-weight: 500;
+    line-height: 31.81px;
+    padding-left: 12px;
+}
+.secondari{
+    width: 328px;
+    height: 61px;
+    top: 474px;
+    left: 505px;
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+}
+h2.name {
+    width: 420px;
+height: 38px;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+text-align: left;
+}
+
+.for {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px 70px;
+
+}
+.backender {
+    width: 450px;
+    font-size: 27px;
+    line-height: 140%;
+    text-align: left;
+}
+
+.student {
+    width: 450px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.beginner {
+    width: 450px;
+    height: 506px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.profecion {
+    width: 450px;
+    height: 506px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.header {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 160px;
+}
+.dir {
+    margin-top: 40px;
+}
+
+/* timer end */
+.list h1 {
+    font-size: calc(2.7vw + 24px);
+    font-weight: 500;
+    line-height: 68.32px;
+    text-align: left;
+    }
+.school {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px 120px;
+    margin-top: px;
+}
+.school .infoSchool {
+    width: 428px ;
+    margin-top: 70px;
+}
+    
+.infoSchool p {
+    font-size: calc(1vw + 12.3px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
+.school h3 {
+    font-size: calc(1vw + 12.3px);
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+}
+
+/* legend start */
+
+.legendContainer h2 {
+    margin-bottom: calc(5.5vw + 19.2px);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 121%;
+}
+
+.legend {
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+}
+
+.legendimg {
+    width: calc(7.7vw + 300px);
+}
+
+.legendinfo {
+    flex-grow: 1;
+    width: 566px;
+}
+
+.legendName h4 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 121%;
+}
+
+.legendName p {
+    font-size: calc(1vw + 14.2px);
+    line-height: 140%;
+    width: calc(26.3vw + 229px);
+}
+
+.legendName {
+    margin-bottom: calc(5.5vw + 19.2px);
+font-size:  calc(1.1vw + 33.8px);
+font-weight: 700;
+line-height: 58px;
+
+
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: calc(1.1vw - 25.8px) calc(8.8vw - 23.3px);
+    grid-template-areas:  
+        "Icon_case Icon_winning_cup"
+        "Icon_hearts Icon_keyboard";
+        width: calc(10.4vw + 117px);
+}
+
+.skill p {
+    font-size: calc(0.6vw + 14px);
+    font-weight: 400;
+    line-height: 140%;
+    width: calc(10.4vw + 117px);
+    margin-top: 10px;
+}
+
+.skill:nth-of-type(1) {
+    grid-area: Icon_case;
+}
+
+.skill:nth-of-type(2) {
+    grid-area: Icon_winning_cup;
+}
+
+.skill:nth-of-type(3) {
+    grid-area: Icon_hearts;
+}
+
+.skill:nth-of-type(4) {
+    grid-area: Icon_keyboard;
+}
+/* legend end */
+/* diplom start */
+.diplom {
+    margin-top: 173px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.imgdip {
+    flex: 1;
+}
+.diplomimg{
+    width: 430px;
+    height: 300px;
+}
+.dipText{
+    flex: 2;
+}
+.diplom h4 {
+   font-size: calc(2.7vw + 24px);
+   font-weight: 500;
+   line-height: 68.32px; 
+}
+.main p{
+    font-size: calc(1vw + 14.3px);
+    font-weight: 400;
+    line-height: 37.8px;
+}
+/* diplom end */
+/*Coursprogram start */
+.Coursprogram{
+    border:2px solid black;
+    position: relative;
+}
+.Coursprogram h2 {
+    margin-top: 40px;
+    margin-left: 64px;
+}
+.Coursprogram ul li {
+    list-style: none;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #A1A1A1;
+}
+.Coursprogram ul {
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 64px;
+    margin-right: 52px;
+}
+.courseDesktop,.courseMobile{
+    color: white;
+    background-color: #6E3ABA;
+    border-radius: 12px;
+    border: 2px solid #6E3ABA;
+    display: block;
+    margin: 0 auto;
+    width: 424px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.courseMobile{
+    display: none;
+}
+.courseImg {
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    width: 80px;
+    height: 80px;
+}
+@media (max-width:975px){
+    .courseDesktop{
+        display: none;
+    }
+    .courseMobile{
+        display: block;
+    }
+    .Coursprogram{
+        margin-bottom: 30px;
+    }
+}
+/*Coursprogram end */
+.borderb img{
+    margin-top: calc(1.8vw + 13.3px);
+    margin-left: calc(10.6vw - 15.9px);
+}
+/* cup start */
+
+.aboutUs h2 {
+    font-size: calc(2.6vw + 24.2px);
+font-weight: 500;
+line-height: 68.32px;
+}
+.us h3 {
+font-size: calc(2.2vw + 25.7px);
+font-weight: 700;
+line-height: 68.32px;
+}
+
+.us {
+    margin-top: calc(4.3vw + 18px);  
+    display: flex; 
+}
+
+
+.cup img{
+    width: 110px;
+    height: 110px;
+    margin-top: calc(5.1vw + 14.8px);
+    margin-left: calc(10,8vw - 17.7px);
+}
+
+.park p {
+    max-width: 426px;
+    font-size: 40px ;
+    font-weight: 600;
+    line-height: 37.8px;
+    margin-top: calc(2.2vw + 11.6px);
+}
+
+/* cup end */
+.box{
+    display: flex;
+    margin-top: 30px;
+}
+.poragrav {
+    margin-left: 5px;
+}
+.reviews{
+    display: flex;
+    gap: 30px;
+
+    
+}
+.review{
+    background-color:  #F0F7FD;
+    border-radius: 12px;
+    padding: 50px 20px 36px;
+}
+.review p{
+    font-size: 21px;
+}
+.review{
+    width: calc(0.8vw + 325px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.youtube {
+    margin-bottom: 12px;
+}
+.clientReview {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.clientReview img {
+    border-radius: 50%;
+}
+
+.clientReview span{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    max-width: 169px;
+    display: block;
+}
+.splide__list {
+    width: 1280px;
+    height: 688px;
+    gap: 30px;
+}
+
+
+.splide__slide{
+    gap: 30px;
+}
+.sliders img {
+    width: 507px;
+    height: 506px;
+    border-radius: 12px;
+    padding: 50px 20px 36px;
+}
+/*footer start */
+
+
+
+
+/*footer end */
